@@ -29,7 +29,7 @@ public class VendorCache {
 
     }
 
-    private void createVendorCache() {
+    public void createVendorCache() {
         Map<Integer, VendorDTO> tempVendorCache = new HashMap<>();
         JSONArray vendorArrObj = ApplicationUtility.parseVendorData();
         clearCache(vendorArrObj);
