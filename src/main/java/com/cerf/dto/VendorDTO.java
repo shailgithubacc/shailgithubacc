@@ -13,4 +13,7 @@ public class VendorDTO {
     private String vendorId;
     private String vendorName;
     private boolean haveSecondaryURL;
+    private int intFlag;
+    private int otpFlag;
+    private String channel;
 }
